@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.finalyearproject.myapplication" >
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MedicinalDataEntry"
+            android:label="@string/title_activity_medicinal_data_entry" >
+        </activity>
+        <activity
+            android:name=".MedicinalDataView"
+            android:label="@string/title_activity_medicinal_data_view" >
+        </activity>
+        <activity
+            android:name=".MedicinalDataUpdate"
+            android:label="@string/title_activity_medicine_data_update" >
+        </activity>
+        <activity
+            android:name=".ledControl"
+            android:label="@string/title_activity_led_control" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">eMedBox</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_medicinal_data_entry">MedicinalDataEntry</string>
+    <string name="morning">Morning</string>
+    <string name="noon">Noon</string>
+    <string name="night">Night</string>
+    <string name="beforeFood">Before</string>
+    <string name="afterFood">After</string>
+    <string name="submit">Submit</string>
+    <string name="dataEntry">Medicine Entry</string>
+    <string name="dataView">Medicine View</string>
+    <string name="dataUpdate">Update</string>
+    <string name="paired">Paired Devices</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="clickClose">On Clicking the medicine will be removed</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_medicinal_data_view">MedicinalDataView</string>
+    <string name="title_activity_medicine_data_update">MedicineDataUpdate</string>
+    <string name="title_activity_device_list">DeviceList</string>
+    <string name="title_activity_led_control">ledControl</string>
+</resources>
